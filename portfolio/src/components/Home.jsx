@@ -21,7 +21,7 @@ const Home = () => {
                     <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contact Me</Link>
                 </span>
                 <img onClick={() => setIsMenuClicked(prev => !prev)} src={isMenuClicked ? crossIcon : menuIcon} alt="menuIcon" className="w-8 h-8 cursor-pointer sm:hidden"/>
-                <div onClick={() => setIsMenuClicked(prev => !prev)} className={`fixed right-0 mt-98 bg-blue-950 flex flex-col justify-evenly items-center overflow-hidden transition-all duration-400 ease-in-out ${isMenuClicked ? "opacity-100" : "opacity-0"}`}>
+                <div className={`fixed right-0 mt-98 bg-blue-950 flex flex-col justify-evenly items-center overflow-hidden transition-all duration-400 ease-in-out ${isMenuClicked ? "opacity-100" : "opacity-0"}`}>
                     <Link to="about" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">About</Link>
                     <Link to="skills" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Skills</Link>
                     <Link to="projects" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Projects</Link>
@@ -35,10 +35,10 @@ const Home = () => {
                         <h1 className="sm:text-2xl lg:text-3xl">Hello, I'm</h1>
                         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-semibold">Rounak Seth</h1>
                         <h1 className="text-2xl sm:text-5xl md:text-5xl xl:text-6xl font-semibold">MERN Stack Developer</h1>
-                        <h1 className="pt-5 text-sm sm:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
+                        <h1 className="pt-5 text-xs sm:text-sm md:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
                     </div>
                     <span className="flex flex-row justify-start items-center gap-5 lg:flex-col lg:justify-center lg:items-start">
-                        <a className="bg-blue-800 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-700 transition-all duration-400 ease-in-out text-sm sm:text-base">Download Resume</a>
+                        <a className="bg-blue-900 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">Download Resume</a>
                         <span className="flex justify-start items-center gap-6 sm:gap-8">
                             <a href="https://www.linkedin.com/in/rounakseth" target="_main">
                                 <img src={linkedinIcon} alt="linkedinIcon" className="w-8 h-8 cursor-pointer md:w-10 md:h-10"/>
