@@ -22,7 +22,7 @@ const Home = () => {
                     <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contact Me</Link>
                 </span>
                 <img onClick={() => setIsMenuClicked(prev => !prev)} src={isMenuClicked ? crossIcon : menuIcon} alt="menuIcon" className="w-8 h-8 cursor-pointer sm:hidden"/>
-                <div className={`fixed right-0 mt-114 bg-blue-950 flex flex-col justify-evenly items-center overflow-hidden transition-all duration-400 ease-in-out ${isMenuClicked ? "opacity-100" : "opacity-0"}`}>
+                <div className={`absolute right-0 mt-114 bg-blue-950 flex flex-col justify-evenly items-center overflow-hidden transition-all duration-400 ease-in-out ${isMenuClicked ? "opacity-100" : "opacity-0"}`}>
                     <Link to="about" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">About</Link>
                     <Link to="skills" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Skills</Link>
                     <Link to="projects" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Projects</Link>
