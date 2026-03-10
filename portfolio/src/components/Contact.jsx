@@ -4,8 +4,21 @@ import collegeBuildingIcon from "../assets/collegeBuildingIcon.svg";
 import graduationCapIcon from "../assets/graduationCapIcon.svg";
 import linkedinIcon from "../assets/linkedinIcon.svg";
 import gitHubIcon from "../assets/gitHubIcon.svg";
+import { useState } from "react";
+import axios from "axios";
 
 const Contact = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+    const handleSubmit = async () => {
+        const response = await axios.post("", { name, email, message });
+        if (response) {
+            
+        } else {
+            
+        }
+    }
     return(
         <div name="contact" className="bg-slate-950 py-10 px-8 md:px-15 lg:px-12 xl:px-20">
             <h1 className="text-white text-center font-semibold text-2xl sm:text-3xl">Contact</h1>
@@ -39,22 +52,13 @@ const Contact = () => {
                         </span>
                     </div>
                 </span>
-                <span className="flex flex-col justify-between items-center gap-5 px-3 py-5 rounded-2xl bg-slate-900 sm:px-15 md:px-8 lg:px-12 xl:px-20">
+                <span className="flex flex-col justify-between items-center gap-10 px-3 py-5 rounded-2xl bg-slate-900 sm:px-15 md:px-8 lg:px-12 xl:px-20">
                     <h1 className="text-white font-semibold sm:text-2xl">Send Mail</h1>
                     <form className="flex flex-col justify-center gap-5">
-                        <span>
-                            <h1 className="text-white text-sm xl:text-base">Name</h1>
-                            <input type="text" placeholder="enter name" className="bg-slate-600 outline-0 rounded px-2"/>
-                        </span>
-                        <span>
-                            <h1 className="text-white text-sm xl:text-base">Email</h1>
-                            <input type="email" placeholder="enter email" className="bg-slate-600 outline-0 rounded px-2"/>
-                        </span>
-                        <span>
-                            <h1 className="text-white text-sm xl:text-base">Message</h1>
-                            <textarea rows={3} cols={22} className="bg-slate-600 outline-0 rounded px-2"></textarea>
-                        </span>
-                        <button className="bg-slate-600 text-white cursor-pointer rounded hover:bg-slate-500 transition-all duration-400 ease-in-out">Send</button>
+                        <input onChange={(event) => setName(event.target.value)} value={name} type="text" placeholder="enter name" className="bg-slate-600 outline-0 rounded-2xl px-3 py-1 text-sm xl:text-base"/>
+                        <input onChange={(event) => setEmail(event.target.value)} value={email} type="email" placeholder="enter email" className="bg-slate-600 outline-0 rounded-2xl px-3 py-1 text-sm xl:text-base"/>
+                        <textarea onChange={(event) => setMessage(event.target.value)} rows={3} cols={22} className="bg-slate-600 outline-0 rounded px-2 py-1 text-sm"></textarea>
+                        <button onClick={handleSubmit} className="bg-slate-600 text-white cursor-pointer rounded-2xl hover:bg-slate-500 transition-all duration-400 ease-in-out">Send</button>
                     </form>
                 </span>
             </div>
