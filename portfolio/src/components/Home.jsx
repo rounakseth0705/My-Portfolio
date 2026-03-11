@@ -11,7 +11,7 @@ const Home = () => {
     const [isMenuClicked, setIsMenuClicked] = useState(false);
     return(
         <div className="bg-linear-to-r from-blue-950 to-black h-screen">
-            <div className="flex justify-between items-center py-8 text-white px-8 md:px-15 lg:px-12 xl:px-20">
+            <div className="flex justify-between items-center py-8 text-white px-8 md:py-12 md:px-15 lg:px-12 xl:px-20">
                 <img src={codeIcon} alt="codeIcon" className="w-8 h-8"/>
                 <span className="hidden text-sm sm:flex sm:justify-between sm:items-center sm:gap-6 md:gap-10 lg:gap-15 xl:gap-20">
                     <Link to="about" smooth={true} duration={500} className="cursor-pointer">About</Link>
@@ -31,12 +31,12 @@ const Home = () => {
                     <Link to="contact" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Contact Me</Link>
                 </div>
             </div>
-            <div className="flex flex-col justify-between items-center gap-12 py-5 px-8 lg:items-start lg:gap-0 lg:flex-row lg:py-25 md:px-15 lg:px-12 xl:px-20">
+            <div className="flex flex-col justify-between items-center gap-20 py-12 px-8 md:py-18 md:gap-15 lg:items-start lg:gap-0 lg:flex-row lg:py-25 md:px-15 lg:px-12 xl:px-20">
                 <div className="text-white">
                     <div className="mb-10 lg:mb-15">
                         <h1 className="sm:text-2xl lg:text-3xl">Hello, I'm</h1>
                         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-semibold">Rounak Seth</h1>
-                        <h1 className="text-2xl sm:text-5xl md:text-5xl xl:text-6xl font-semibold">MERN Stack Developer</h1>
+                        <h1 className="text-2xl sm:text-5xl md:my-3 md:text-5xl lg:my-0 xl:text-6xl font-semibold">MERN Stack Developer</h1>
                         <h1 className="pt-5 text-xs sm:text-sm md:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
                     </div>
                     <span className="flex flex-row justify-start items-center gap-5 lg:flex-col lg:justify-center lg:items-start">
@@ -51,7 +51,7 @@ const Home = () => {
                         </span>
                     </span>
                 </div>
-                <img src={myPhoto} alt="myPhoto" className="w-75 h-60 rounded-full sm:w-90 sm:h-75 lg:w-85 lg:h-70 xl:w-114 xl:h-95"/>
+                <img src={myPhoto} alt="myPhoto" className="w-80 h-65 rounded-full sm:w-90 sm:h-75 md:w-110 md:h-95 lg:w-85 lg:h-70 xl:w-114 xl:h-95"/>
             </div>
         </div>
     )
