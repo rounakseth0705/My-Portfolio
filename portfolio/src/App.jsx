@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import About from "./components/About.jsx";
 import Achievements from "./components/Achievements.jsx";
 import Contact from "./components/Contact.jsx";
@@ -9,6 +10,7 @@ import Skills from "./components/Skills.jsx";
 const App = () => {
     return(
         <>
+            <Toaster/>
             <Home/>
             <About/>
             <Skills/>

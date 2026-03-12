@@ -31,7 +31,7 @@ const Home = () => {
                     <Link to="contact" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Contact Me</Link>
                 </div>
             </div>
-            <div className="flex flex-col justify-between items-center gap-20 py-12 px-8 md:py-18 md:gap-15 lg:items-start lg:gap-0 lg:flex-row lg:py-25 md:px-15 lg:px-12 xl:px-20">
+            <div className="flex flex-col justify-between items-center gap-25 py-12 px-8 md:py-18 md:gap-20 lg:items-start lg:gap-0 lg:flex-row lg:py-25 md:px-15 lg:px-12 xl:px-20">
                 <div className="text-white">
                     <div className="mb-10 lg:mb-15">
                         <h1 className="sm:text-2xl lg:text-3xl">Hello, I'm</h1>

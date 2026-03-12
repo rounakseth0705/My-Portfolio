@@ -2,6 +2,7 @@ import quickChat from "../assets/quickChat.png";
 import studentErp from "../assets/studentErp.png";
 import edusity from "../assets/edusity.png";
 import todoApp from "../assets/todoApp.png";
+import mernAuth from "../assets/mernAuth.png";
 
 const Projects = () => {
     return(
@@ -17,12 +18,20 @@ const Projects = () => {
                     <h1 className="text-white">Quick Chat</h1>
                 </span>
                 <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 cursor-pointer shadow-2xl rounded-2xl hover:bg-slate-900 transition-all duration-500 ease-in-out">
+                    <img src={mernAuth} alt="mernAuth" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
+                    <h1 className="text-white">MERN Authentication</h1>
+                </span>
+                <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 cursor-pointer shadow-2xl rounded-2xl hover:bg-slate-900 transition-all duration-500 ease-in-out">
                     <img src={edusity} alt="edusityImage" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
                     <h1 className="text-white">Edusity</h1>
                 </span>
                 <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 cursor-pointer shadow-2xl rounded-2xl hover:bg-slate-900 transition-all duration-500 ease-in-out">
                     <img src={todoApp} alt="todoImage" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
                     <h1 className="text-white">Todo App with Authentication</h1>
+                </span>
+                <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 cursor-pointer shadow-2xl rounded-2xl hover:bg-slate-900 transition-all duration-500 ease-in-out">
+                    <img src={quickChat} alt="quickChatImage" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
+                    <h1 className="text-white">Quick Chat</h1>
                 </span>
             </div>
         </div>

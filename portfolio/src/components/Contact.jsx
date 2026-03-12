@@ -6,21 +6,28 @@ import linkedinIcon from "../assets/linkedinIcon.svg";
 import gitHubIcon from "../assets/gitHubIcon.svg";
 import { useState } from "react";
 import axios from "axios";
+import toast from "react-hot-toast";
 
 const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-    const handleSubmit = async () => {
-        const response = await axios.post("", { name, email, message });
-        if (response) {
-            if (response.data.success) {
-
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        console.log(import.meta.env.VITE_BACKEND_URL);
+        try {
+            const response = await axios.post(`http://localhost:6001/api/send-mail`, { name, email, message });
+            if (response) {
+                if (response.data.success) {
+                    toast.success(response.data.message);
+                } else {
+                    toast.error(response.data.message);
+                }
             } else {
-                
+                toast.error("Something went wrong!");
             }
-        } else {
-            
+        } catch(error) {
+            toast.error(error.message);
         }
     }
     return(
