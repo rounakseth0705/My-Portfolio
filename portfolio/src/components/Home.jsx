@@ -31,12 +31,12 @@ const Home = () => {
                     <Link to="contact" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Contact Me</Link>
                 </div>
             </div>
-            <div className="flex flex-col justify-between items-center gap-25 py-12 px-8 md:py-18 md:gap-20 lg:items-start lg:gap-0 lg:flex-row lg:py-25 md:px-15 lg:px-12 xl:px-20">
+            <div className="flex flex-col justify-between items-center gap-25 py-12 px-8 sm:py-16 md:py-18 md:gap-20 lg:items-start lg:gap-0 lg:flex-row lg:py-20 md:px-15 lg:px-12 xl:py-25 xl:px-20">
                 <div className="text-white">
                     <div className="mb-10 lg:mb-15">
                         <h1 className="sm:text-2xl lg:text-3xl">Hello, I'm</h1>
-                        <h1 className="text-2xl sm:text-3xl lg:text-5xl font-semibold">Rounak Seth</h1>
-                        <h1 className="text-2xl sm:text-5xl md:my-3 md:text-5xl lg:my-0 xl:text-6xl font-semibold">MERN Stack Developer</h1>
+                        <h1 className="text-2xl text-purple-500 sm:text-3xl md:text-4xl lg:text-5xl font-semibold">Rounak Seth</h1>
+                        <h1 className="text-2xl text-purple-500 sm:text-5xl md:my-3 md:text-5xl lg:my-0 xl:text-6xl font-semibold">MERN Stack Developer</h1>
                         <h1 className="pt-5 text-xs sm:text-sm md:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
                     </div>
                     <span className="flex flex-row justify-start items-center gap-5 lg:flex-col lg:justify-center lg:items-start">
@@ -51,7 +51,7 @@ const Home = () => {
                         </span>
                     </span>
                 </div>
-                <img src={myPhoto} alt="myPhoto" className="w-80 h-65 rounded-full sm:w-90 sm:h-75 md:w-110 md:h-95 lg:w-85 lg:h-70 xl:w-114 xl:h-95"/>
+                <img src={myPhoto} alt="myPhoto" className="w-80 h-65 rounded-full sm:w-110 sm:h-95 md:w-120 md:h-105 lg:w-85 lg:h-70 xl:w-114 xl:h-95"/>
             </div>
         </div>
     )
