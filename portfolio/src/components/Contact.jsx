@@ -55,11 +55,11 @@ const Contact = () => {
                         </span>
                         <span className="flex justify-center items-center gap-3 sm:gap-4 md:gap-3 lg:gap-5">
                             <img src={linkedinIcon} alt="linkedinIcon" className="w-5 h-5"/>
-                            <a href="https://www.linkedin.com/in/rounakseth" target="_main" className="text-white text-sm sm:text-base md:text-sm lg:text-base">https://www.linkedin.com/in/rounakseth</a>
+                            <a href="https://www.linkedin.com/in/rounakseth" target="_main" className="text-white text-sm hover:underline sm:text-base md:text-sm lg:text-base">https://www.linkedin.com/in/rounakseth</a>
                         </span>
                         <span className="flex justify-center items-center gap-3 sm:gap-4 md:gap-3 lg:gap-5">
                             <img src={gitHubIcon} alt="gitHubIcon" className="w-5 h-5"/>
-                            <a href="https://github.com/rounakseth0705" target="_main" className="text-white text-sm sm:text-base md:text-sm lg:text-base">https://github.com/rounakseth0705</a>
+                            <a href="https://github.com/rounakseth0705" target="_main" className="text-white text-sm hover:underline sm:text-base md:text-sm lg:text-base">https://github.com/rounakseth0705</a>
                         </span>
                     </div>
                 </span>
