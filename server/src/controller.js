@@ -2,14 +2,14 @@ import transporter from "./nodemailer.js";
 
 export const sendMail = async (req,res) => {
     try {
-        const { name, email, message } = req.body;
-        if (!name || !email || !message) {
+        const { subject, email, message } = req.body;
+        if (!subject || !email || !message) {
             return res.json({ success: false, message: "Details missing" });
         }
         const mailOptions = {
             from: email,
             to: process.env.RECEIVER_MAIL,
-            subject: "Mail from portfolio",
+            subject: subject,
             text: message
         };
         await transporter.sendMail(mailOptions);

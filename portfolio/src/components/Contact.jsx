@@ -9,17 +9,19 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 const Contact = () => {
-    const [name, setName] = useState("");
+    const [subject, setSubject] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const handleSubmit = async (event) => {
         event.preventDefault();
-        console.log(import.meta.env.VITE_BACKEND_URL);
         try {
-            const response = await axios.post(`http://localhost:6001/api/send-mail`, { name, email, message });
+            const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/send-mail`, { subject, email, message });
             if (response) {
                 if (response.data.success) {
                     toast.success(response.data.message);
+                    setSubject("");
+                    setEmail("");
+                    setMessage("");
                 } else {
                     toast.error(response.data.message);
                 }
@@ -66,9 +68,9 @@ const Contact = () => {
                 <span className="flex flex-col justify-between items-center gap-6 px-6 py-5 rounded-2xl bg-slate-900 sm:px-16 md:px-8 lg:px-12 lg:gap-11 xl:px-20 xl:gap-9.5">
                     <h1 className="text-white font-semibold sm:text-2xl">Send Mail</h1>
                     <form className="flex flex-col justify-center items-center gap-5">
-                        <input onChange={(event) => setName(event.target.value)} value={name} type="text" placeholder="enter name" className="bg-slate-600 outline-0 rounded-2xl px-3 py-1 w-65 text-sm sm:w-75 md:w-60 lg:w-75 xl:text-base"/>
+                        <input onChange={(event) => setSubject(event.target.value)} value={subject} type="text" placeholder="enter subject" className="bg-slate-600 outline-0 rounded-2xl px-3 py-1 w-65 text-sm sm:w-75 md:w-60 lg:w-75 xl:text-base"/>
                         <input onChange={(event) => setEmail(event.target.value)} value={email} type="email" placeholder="enter email" className="bg-slate-600 outline-0 rounded-2xl px-3 py-1 w-65 text-sm sm:w-75 md:w-60 lg:w-75 xl:text-base"/>
-                        <textarea onChange={(event) => setMessage(event.target.value)} rows={3} cols={22} placeholder="enter your message" className="bg-slate-600 outline-0 rounded px-2 py-1 text-sm w-65 sm:w-75 md:w-60 lg:w-75"></textarea>
+                        <textarea onChange={(event) => setMessage(event.target.value)} value={message} rows={3} cols={22} placeholder="enter your message" className="bg-slate-600 outline-0 rounded px-2 py-1 text-sm w-65 sm:w-75 md:w-60 lg:w-75"></textarea>
                         <button onClick={handleSubmit} className="bg-slate-600 text-white cursor-pointer rounded-2xl hover:bg-slate-500 transition-all duration-400 ease-in-out py-1 px-8">Send</button>
                     </form>
                 </span>
