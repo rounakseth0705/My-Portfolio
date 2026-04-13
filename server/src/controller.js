@@ -2,6 +2,7 @@ import transporter from "./nodemailer.js";
 
 export const sendMail = async (req,res) => {
     try {
+        console.log(req.body);
         const { subject, email, message } = req.body;
         if (!subject || !email || !message) {
             return res.json({ success: false, message: "Details missing" });

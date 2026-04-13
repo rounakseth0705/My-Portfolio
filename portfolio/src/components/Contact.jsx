@@ -15,7 +15,8 @@ const Contact = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/send-mail`, { subject, email, message });
+            const response = await axios.post("https://my-portfolio-backend-vvaj.onrender.com/api/send-mail", { subject, email, message });
+            console.log(response.data);
             if (response) {
                 if (response.data.success) {
                     toast.success(response.data.message);
