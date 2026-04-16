@@ -4,6 +4,7 @@ import menuIcon from "../assets/menuIcon.svg";
 import crossIcon from "../assets/crossIcon.svg";
 import codeIcon from "../assets/codeIcon.svg";
 import myPhoto from "../assets/photo.jpeg";
+import fileDownloadIcon from "../assets/fileDownloadIcon.svg";
 import gitHubIcon from "../assets/gitHubIcon.svg";
 import linkedinIcon from "../assets/linkedinIcon.svg";
 import instagramIcon from "../assets/instagramIcon.svg";
@@ -11,7 +12,7 @@ import instagramIcon from "../assets/instagramIcon.svg";
 const Home = () => {
     const [isMenuClicked, setIsMenuClicked] = useState(false);
     return(
-        <div name="home" className="bg-linear-to-r from-blue-950 to-black h-screen">
+        <div name="home" className="bg-linear-to-r from-blue-950 to-slate-950 h-screen">
             <div className="flex justify-between items-center py-8 text-white px-8 md:py-12 md:px-15 lg:px-12 xl:px-20">
                 <img src={codeIcon} alt="codeIcon" className="w-8 h-8"/>
                 <span className="hidden text-sm sm:flex sm:justify-between sm:items-center sm:gap-6 md:gap-10 lg:gap-15 xl:gap-20">
@@ -36,12 +37,15 @@ const Home = () => {
                 <div className="text-white">
                     <div className="mb-10 lg:mb-15">
                         <h1 className="sm:text-2xl lg:text-3xl">Hello, I'm</h1>
-                        <h1 className="text-2xl text-purple-500 sm:text-3xl md:text-4xl lg:text-5xl font-semibold">Rounak Seth</h1>
-                        <h1 className="text-3xl text-purple-500 sm:text-5xl md:my-3 md:text-5xl lg:my-0 xl:text-6xl font-semibold">MERN Stack Developer</h1>
-                        <h1 className="pt-5 text-xs sm:text-sm md:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
+                        <h1 className="text-2xl bg-linear-to-r from-purple-400 via-purple-500 to-indigo-500 bg-clip-text text-transparent sm:text-3xl md:text-4xl lg:text-5xl font-semibold">Rounak Seth</h1>
+                        <h1 className="text-3xl bg-linear-to-r from-purple-400 via-purple-500 to-indigo-500 bg-clip-text text-transparent sm:text-5xl md:my-3 md:text-5xl lg:my-0 xl:text-6xl font-semibold">MERN Stack Developer</h1>
+                        <h1 className="pt-5 text-xs text-gray-300 sm:text-sm md:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
                     </div>
                     <span className="flex flex-row justify-start items-center gap-5 lg:flex-col lg:justify-center lg:items-start">
-                        <a href="/resume.pdf" download="rounak-Seth-Resume.pdf" className="bg-linear-to-r from-purple-400 to-purple-500 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">Download Resume</a>
+                        <a href="/resume.pdf" download="rounak-Seth-Resume.pdf" className="flex justify-center items-center gap-1 bg-linear-to-r from-blue-600 to-purple-700 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">
+                            <img src={fileDownloadIcon} alt="fileDownloadIcon" className="w-4 h-4 sm:w-5 sm:h-5"/>
+                            Download Resume
+                        </a>
                         <span className="flex justify-start items-center gap-6 sm:gap-8">
                             <a href="https://www.linkedin.com/in/rounakseth" target="_main">
                                 <img src={linkedinIcon} alt="linkedinIcon" className="w-8 h-8 cursor-pointer md:w-10 md:h-10"/>
