@@ -6,6 +6,7 @@ import Home from "./components/Home.jsx";
 import Projects from "./components/Projects.jsx";
 import Services from "./components/Services.jsx";
 import Skills from "./components/Skills.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
     return(
@@ -18,6 +19,7 @@ const App = () => {
             <Services/>
             <Achievements/>
             <Contact/>
+            <Footer/>
         </>
     )
 }

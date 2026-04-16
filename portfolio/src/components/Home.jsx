@@ -6,11 +6,12 @@ import codeIcon from "../assets/codeIcon.svg";
 import myPhoto from "../assets/photo.jpeg";
 import gitHubIcon from "../assets/gitHubIcon.svg";
 import linkedinIcon from "../assets/linkedinIcon.svg";
+import instagramIcon from "../assets/instagramIcon.svg";
 
 const Home = () => {
     const [isMenuClicked, setIsMenuClicked] = useState(false);
     return(
-        <div className="bg-linear-to-r from-blue-950 to-black h-screen">
+        <div name="home" className="bg-linear-to-r from-blue-950 to-black h-screen">
             <div className="flex justify-between items-center py-8 text-white px-8 md:py-12 md:px-15 lg:px-12 xl:px-20">
                 <img src={codeIcon} alt="codeIcon" className="w-8 h-8"/>
                 <span className="hidden text-sm sm:flex sm:justify-between sm:items-center sm:gap-6 md:gap-10 lg:gap-15 xl:gap-20">
@@ -31,7 +32,7 @@ const Home = () => {
                     <Link to="contact" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Contact Me</Link>
                 </div>
             </div>
-            <div className="flex flex-col justify-between items-center gap-25 py-12 px-8 sm:py-16 md:py-18 md:gap-20 lg:items-start lg:gap-0 lg:flex-row lg:py-20 md:px-15 lg:px-12 xl:py-20 xl:px-20">
+            <div className="flex flex-col justify-between items-center gap-25 py-12 px-5 sm:py-16 md:py-18 md:gap-20 lg:items-start lg:gap-0 lg:flex-row lg:py-20 md:px-15 lg:px-12 xl:py-20 xl:px-20">
                 <div className="text-white">
                     <div className="mb-10 lg:mb-15">
                         <h1 className="sm:text-2xl lg:text-3xl">Hello, I'm</h1>
@@ -40,13 +41,16 @@ const Home = () => {
                         <h1 className="pt-5 text-xs sm:text-sm md:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
                     </div>
                     <span className="flex flex-row justify-start items-center gap-5 lg:flex-col lg:justify-center lg:items-start">
-                        <a href="/resume.pdf" download="rounak-Seth-Resume.pdf" className="bg-blue-900 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">Download Resume</a>
+                        <a href="/resume.pdf" download="rounak-Seth-Resume.pdf" className="bg-linear-to-r from-purple-400 to-purple-500 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">Download Resume</a>
                         <span className="flex justify-start items-center gap-6 sm:gap-8">
                             <a href="https://www.linkedin.com/in/rounakseth" target="_main">
                                 <img src={linkedinIcon} alt="linkedinIcon" className="w-8 h-8 cursor-pointer md:w-10 md:h-10"/>
                             </a>
                             <a href="https://github.com/rounakseth0705" target="_main">
                                 <img src={gitHubIcon} alt="gitHubIcon" className="w-8 h-8 cursor-pointer md:w-10 md:h-10"/>
+                            </a>
+                            <a href="https://www.instagram.com/beingrounakkk/" target="_main">
+                                <img src={instagramIcon} alt="instagramIcon" className="w-8 h-8 cursor-pointer md:w-10 md:h-10"/>
                             </a>
                         </span>
                     </span>
