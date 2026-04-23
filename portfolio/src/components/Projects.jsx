@@ -11,37 +11,37 @@ const Projects = () => {
             <h1 className="text-purple-500 text-center font-semibold text-5xl">Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-10 sm:mx-18 md:mx-10 lg:mx-15 xl:mx-20">
                 <a href="https://github.com/rounakseth0705/Student-ERP" target="_main">
-                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-white cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:border-purple-500 hover:scale-103 transition-all duration-800 ease-in-out">
+                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-purple-500 cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:scale-103 transition-all duration-800 ease-in-out">
                         <img src={studentErp} alt="studentErpImage" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
                         <h1 className="text-white">Student ERP</h1>
                     </span>
                 </a>
                 <a href="https://github.com/rounakseth0705/Quick-Chat" target="_main">
-                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-white cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:border-purple-500 hover:scale-103 transition-all duration-800 ease-in-out">
+                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-purple-500 cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:scale-103 transition-all duration-800 ease-in-out">
                         <img src={quickChat} alt="quickChatImage" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>              
                         <h1 className="text-white">Quick Chat</h1>
                     </span>
                 </a>
                 <a href="https://github.com/rounakseth0705/Passport-Application" target="_main">
-                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-white cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:border-purple-500 hover:scale-103 transition-all duration-800 ease-in-out">
+                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-purple-500 cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:scale-103 transition-all duration-800 ease-in-out">
                         <img src={passportApplication} alt="passportApplication" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
                         <h1 className="text-white">Passport Application</h1>
                     </span>
                 </a>
                 <a href="https://github.com/rounakseth0705/edusity" target="_main">
-                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-white cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:border-purple-500 hover:scale-103 transition-all duration-800 ease-in-out">
+                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-purple-500 cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:scale-103 transition-all duration-800 ease-in-out">
                         <img src={edusity} alt="edusityImage" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
                         <h1 className="text-white">Edusity</h1>
                     </span>
                 </a>
                 <a href="https://github.com/rounakseth0705/Todo-App" target="_main">
-                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-white cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:border-purple-500 hover:scale-103 transition-all duration-800 ease-in-out">
+                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-purple-500 cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:scale-103 transition-all duration-800 ease-in-out">
                         <img src={todoApp} alt="todoImage" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
                         <h1 className="text-white">Task Adder with Authentication</h1>
                     </span>
                 </a>
                 <a href="" target="_main">
-                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-white cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:border-purple-500 hover:scale-103 transition-all duration-800 ease-in-out">
+                    <span className="flex flex-col justify-center items-center gap-3 py-5 bg-slate-950 border border-purple-500 cursor-pointer shadow-2xl rounded-2xl hover:shadow-lg hover:shadow-purple-600 hover:scale-103 transition-all duration-800 ease-in-out">
                         <img src={itSolutions} alt="itSolutionsImage" className="px-3 sm:px-0 sm:w-80 sm:h-40 md:w-65 md:h-33 lg:w-90 lg:h-45 xl:w-100 xl:h-50"/>
                         <h1 className="text-white">IT Solutions (React.js)</h1>
                     </span>
