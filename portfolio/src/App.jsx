@@ -13,9 +13,9 @@ const App = () => {
         <>
             <Toaster/>
             <Home/>
-            <About/>
             <Skills/>
             <Projects/>
+            <About/>
             <Services/>
             <Achievements/>
             <Contact/>
