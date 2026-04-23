@@ -11,24 +11,10 @@ import sqlIcon from "../assets/sqlIcon.png";
 
 const Skills = () => {
     return(
-        <div name="skills" className="bg-linear-to-r from-blue-950 to-slate-950 py-12 px-8 md:px-15 lg:px-12 xl:px-20">
-            <h1 className="text-purple-500 font-semibold text-2xl py-2 text-center sm:text-5xl">Skills</h1>
-            {/* <div className="grid grid-cols-2 gap-x-8 gap-y-12 text-sm my-10 mx-4 text-white md:text-base sm:mx-10 sm:gap-x-12 sm:grid-cols-3 md:gap-x-15 md:mx-16 lg:mx-25 lg:grid-cols-4 lg:gap-x-16 xl:mx-35 xl:gap-x-24">
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">React.js</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">Node.js</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">Express</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">MongoDB</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">Redux.js</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">Docker</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">Git & GitHub</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">Redis</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">Generative AI</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">WebSockets</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">Tailwind CSS</h1>
-                <h1 className="flex justify-center items-center bg-blue-900 py-2 rounded-4xl shadow-2xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out">REST APIs</h1>
-            </div> */}
-            <div className="grid grid-cols-1 my-10 gap-x-5 gap-y-7 sm:grid-cols-2 md:gap-x-6 lg:gap-10">
-                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white rounded-2xl py-[3vh]">
+        <div name="skills" className="bg-linear-to-r from-blue-950 to-slate-950 py-8 px-8 md:px-15 lg:px-12 xl:px-20">
+            <h1 className="text-purple-500 font-semibold py-2 text-center text-5xl">Skills</h1>
+            <div className="grid grid-cols-1 my-8 gap-x-5 gap-y-7 sm:grid-cols-2 md:gap-x-6 lg:gap-10">
+                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-lg hover:border-purple-500 hover:shadow-purple-600 active:border-purple-500 active:shadow-purple-600 transition-all duration-800 ease-in-out rounded-2xl py-[3vh]">
                     <h1 className="font-semibold text-2xl text-center text-gray-400">Languages and Frameworks</h1>
                     <span className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                         <span className="flex justify-center items-center gap-2 w-[32vw] h-12 border border-gray-500 bg-gray-900 rounded-3xl cursor-pointer sm:w-[19vw] md:gap-3 md:w-[17vw] lg:w-[13vw] lg:h-[6.5vh] xl:w-[10vw] xl:h-[6.5vh]">
@@ -61,7 +47,7 @@ const Skills = () => {
                         </span>
                     </span>
                 </span>
-                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white rounded-2xl py-[3vh]">
+                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-lg hover:border-purple-500 hover:shadow-purple-600 active:border-purple-500 active:shadow-purple-600 transition-all duration-800 ease-in-out rounded-2xl py-[3vh]">
                     <h1 className="font-semibold text-2xl text-gray-400">Tools and Technologies</h1>
                     <span className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                         <span className="flex justify-center items-center gap-2 w-[32vw] h-12 border border-gray-500 bg-gray-900 rounded-3xl cursor-pointer sm:w-[19vw] md:gap-3 md:w-[17vw] lg:w-[13vw] lg:h-[6.5vh] xl:w-[10vw] xl:h-[6.5vh]">
@@ -98,7 +84,7 @@ const Skills = () => {
                         </span>
                     </span>
                 </span>
-                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white rounded-2xl py-[3vh]">
+                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-lg hover:border-purple-500 hover:shadow-purple-600 active:border-purple-500 active:shadow-purple-600 transition-all duration-700 ease-in-out rounded-2xl py-[3vh]">
                     <h1 className="font-semibold text-2xl text-gray-400">Databases</h1>
                     <span className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                         <span className="flex justify-center items-center gap-2 w-[32vw] h-12 border border-gray-500 bg-gray-900 rounded-3xl cursor-pointer sm:w-[19vw] md:gap-3 md:w-[17vw] lg:w-[13vw] lg:h-[6.5vh] xl:w-[10vw] xl:h-[6.5vh]">
@@ -115,7 +101,7 @@ const Skills = () => {
                         </span>
                     </span>
                 </span>
-                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white rounded-2xl py-[3vh]">
+                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-lg hover:border-purple-500 hover:shadow-purple-600 active:border-purple-500 active:shadow-purple-600 transition-all duration-800 ease-in-out rounded-2xl py-[3vh]">
                     <h1 className="font-semibold text-2xl text-gray-400">Other Skills</h1>
                     <span className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                         <span className="flex justify-center items-center gap-2 w-[32vw] h-12 border border-gray-500 bg-gray-900 rounded-3xl cursor-pointer sm:w-[19vw] md:gap-3 md:w-[17vw] lg:w-[13vw] lg:h-[6.5vh] xl:w-[10vw] xl:h-[6.5vh]">

@@ -7,8 +7,8 @@ import gitHubIcon from "../assets/gitHubIcon.svg";
 
 const Services = () => {
     return(
-        <div name="services" className="bg-slate-950 py-10 px-8 md:px-15 lg:px-12 xl:px-20">
-            <h1 className="text-center text-purple-500 font-semibold text-2xl sm:text-5xl">My Services</h1>
+        <div name="services" className="bg-slate-950 py-8 px-8 md:px-15 lg:px-12 xl:px-20">
+            <h1 className="text-center text-purple-500 font-semibold text-5xl">My Services</h1>
             <div className="grid grid-cols-1 gap-5 text-white my-5 py-3 px-3 sm:px-5 sm:grid-cols-2 md:px-8 lg:px-10 lg:grid-cols-3">
                 <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl border border-purple-500 hover:bg-slate-800 transition-all duration-500 ease-in-out">
                     <img src={reactIcon} alt="reactIcon" className="w-10 h-10"/>
