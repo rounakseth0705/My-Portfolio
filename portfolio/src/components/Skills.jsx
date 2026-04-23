@@ -14,7 +14,7 @@ const Skills = () => {
         <div name="skills" className="bg-slate-950 py-8 px-8 md:px-15 lg:px-12 xl:px-20">
             <h1 className="text-purple-500 font-semibold py-2 text-center text-5xl">Skills</h1>
             <div className="grid grid-cols-1 my-8 gap-x-5 gap-y-7 sm:grid-cols-2 md:gap-x-6 lg:gap-10">
-                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-md shadow-purple-600 hover:border-purple-500 hover:shadow-purple-600 transition-all duration-800 ease-in-out rounded-2xl py-[3vh] sm:shadow-lg sm:shadow-black/20">
+                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-md shadow-purple-600 hover:border-purple-500 hover:shadow-purple-600 hover:scale-103 active:border-purple-500 active:shadow-purple-600 active:scale-105 transition-all duration-800 ease-in-out rounded-2xl py-[3vh] sm:shadow-lg sm:shadow-black/20">
                     <h1 className="font-semibold text-2xl text-center text-gray-400">Languages and Frameworks</h1>
                     <span className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                         <span className="flex justify-center items-center gap-2 w-[32vw] h-12 border border-gray-500 bg-gray-900 rounded-3xl cursor-pointer sm:w-[19vw] md:gap-3 md:w-[17vw] lg:w-[13vw] lg:h-[6.5vh] xl:w-[10vw] xl:h-[6.5vh]">
@@ -47,7 +47,7 @@ const Skills = () => {
                         </span>
                     </span>
                 </span>
-                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-md shadow-purple-600 hover:border-purple-500 hover:shadow-purple-600 active:border-purple-500 active:shadow-purple-600 transition-all duration-800 ease-in-out rounded-2xl py-[3vh] sm:shadow-lg sm:shadow-black/20">
+                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-md shadow-purple-600 hover:border-purple-500 hover:shadow-purple-600 hover:scale-103 active:border-purple-500 active:shadow-purple-600 active:scale-105 transition-all duration-800 ease-in-out rounded-2xl py-[3vh] sm:shadow-lg sm:shadow-black/20">
                     <h1 className="font-semibold text-2xl text-gray-400">Tools and Technologies</h1>
                     <span className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                         <span className="flex justify-center items-center gap-2 w-[32vw] h-12 border border-gray-500 bg-gray-900 rounded-3xl cursor-pointer sm:w-[19vw] md:gap-3 md:w-[17vw] lg:w-[13vw] lg:h-[6.5vh] xl:w-[10vw] xl:h-[6.5vh]">
@@ -84,7 +84,7 @@ const Skills = () => {
                         </span>
                     </span>
                 </span>
-                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-md shadow-purple-600 hover:border-purple-500 hover:shadow-purple-600 active:border-purple-500 active:shadow-purple-600 transition-all duration-700 ease-in-out rounded-2xl py-[3vh] sm:shadow-lg sm:shadow-black/20">
+                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-md shadow-purple-600 hover:border-purple-500 hover:shadow-purple-600 hover:scale-103 active:border-purple-500 active:shadow-purple-600 active:scale-105 transition-all duration-700 ease-in-out rounded-2xl py-[3vh] sm:shadow-lg sm:shadow-black/20">
                     <h1 className="font-semibold text-2xl text-gray-400">Databases</h1>
                     <span className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                         <span className="flex justify-center items-center gap-2 w-[32vw] h-12 border border-gray-500 bg-gray-900 rounded-3xl cursor-pointer sm:w-[19vw] md:gap-3 md:w-[17vw] lg:w-[13vw] lg:h-[6.5vh] xl:w-[10vw] xl:h-[6.5vh]">
@@ -101,7 +101,7 @@ const Skills = () => {
                         </span>
                     </span>
                 </span>
-                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-md shadow-purple-600 hover:border-purple-500 hover:shadow-purple-600 active:border-purple-500 active:shadow-purple-600 transition-all duration-800 ease-in-out rounded-2xl py-[3vh] sm:shadow-lg sm:shadow-black/20">
+                <span className="flex flex-col items-center gap-3 bg-slate-800 border border-white shadow-md shadow-purple-600 hover:border-purple-500 hover:shadow-purple-600 hover:scale-103 active:border-purple-500 active:shadow-purple-600 active:scale-105 transition-all duration-800 ease-in-out rounded-2xl py-[3vh] sm:shadow-lg sm:shadow-black/20">
                     <h1 className="font-semibold text-2xl text-gray-400">Other Skills</h1>
                     <span className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                         <span className="flex justify-center items-center gap-2 w-[32vw] h-12 border border-gray-500 bg-gray-900 rounded-3xl cursor-pointer sm:w-[19vw] md:gap-3 md:w-[17vw] lg:w-[13vw] lg:h-[6.5vh] xl:w-[10vw] xl:h-[6.5vh]">

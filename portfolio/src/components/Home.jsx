@@ -43,7 +43,7 @@ const Home = () => {
                         <h1 className="pt-5 text-xs text-gray-300 sm:text-sm md:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
                     </div>
                     <span className="flex flex-row justify-start items-center gap-5 lg:justify-start lg:items-start xl:flex-col xl:justify-center">
-                        <a href="/resume.pdf" download="rounak-Seth-Resume.pdf" className="flex justify-center items-center gap-1 bg-linear-to-r from-blue-600 to-purple-700 shadow-lg shadow-blue-800 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">
+                        <a href="/resume.pdf" download="rounak-Seth-Resume.pdf" className="flex justify-center items-center gap-1 bg-linear-to-r from-blue-600 to-purple-700 shadow-lg shadow-blue-800 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 hover:scale-103 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">
                             <img src={fileDownloadIcon} alt="fileDownloadIcon" className="w-4 h-4 sm:w-5 sm:h-5"/>
                             Download Resume
                         </a>
