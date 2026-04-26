@@ -10,32 +10,32 @@ const Services = () => {
         <div name="services" className="bg-slate-950 py-8 px-8 md:px-15 lg:px-12 xl:px-20">
             <h1 className="text-center text-purple-500 font-semibold text-5xl">My Services</h1>
             <div className="grid grid-cols-1 gap-5 text-white my-5 py-3 px-3 sm:px-5 sm:grid-cols-2 md:px-8 lg:px-10 lg:grid-cols-3">
-                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl border border-purple-500 hover:bg-slate-800 transition-all duration-500 ease-in-out">
+                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl shadow-2xl border border-gray-600 hover:scale-103 hover:shadow-lg hover:shadow-indigo-600 hover:border-indigo-500 active:scale-107 active:shadow-lg active:shadow-indigo-600 active:border-indigo-500 transition-all duration-800 ease-in-out">
                     <img src={reactIcon} alt="reactIcon" className="w-10 h-10"/>
                     <h1 className="font-semibold">Frontend Development</h1>
                     <h1 className="py-5 text-xs md:text-sm">Building modern responsive and interactive user interfaces using React, Redux, Context API, and Tailwind CSS.</h1>
                 </span>
-                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl border border-purple-500 hover:bg-slate-800 transition-all duration-500 ease-in-out">
+                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl shadow-2xl border border-gray-600 hover:scale-103 hover:shadow-lg hover:shadow-indigo-600 hover:border-indigo-500 active:scale-107 active:shadow-lg active:shadow-indigo-600 active:border-indigo-500 transition-all duration-800 ease-in-out">
                     <img src={nodeJsIcon} alt="nodeJsIcon" className="w-10 h-10"/>
                     <h1 className="font-semibold">Backend Development</h1>
                     <h1 className="py-5 text-xs md:text-sm">Building secure and scalable backend systems using Node.js, Express, REST APIs, and JWT-based authentication and authorization.</h1>
                 </span>
-                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl border border-purple-500 hover:bg-slate-800 transition-all duration-500 ease-in-out">
+                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl shadow-2xl border border-gray-600 hover:scale-103 hover:shadow-lg hover:shadow-indigo-600 hover:border-indigo-500 active:scale-107 active:shadow-lg active:shadow-indigo-600 active:border-indigo-500 transition-all duration-800 ease-in-out">
                     <img src={dockerIcon} alt="dockerIcon" className="w-10 h-10"/>
                     <h1 className="font-semibold">Containerization</h1>
                     <h1 className="py-5 text-xs md:text-sm">Containerizing applications using Docker to ensure consistent environments and efficient. scalable deployment.</h1>
                 </span>
-                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl border border-purple-500 hover:bg-slate-800 transition-all duration-500 ease-in-out">
+                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl shadow-2xl border border-gray-600 hover:scale-103 hover:shadow-lg hover:shadow-indigo-600 hover:border-indigo-500 active:scale-107 active:shadow-lg active:shadow-indigo-600 active:border-indigo-500 transition-all duration-800 ease-in-out">
                     <img src={databaseIcon} alt="databaseIcon" className="w-10 h-10"/>
                     <h1 className="font-semibold">Database Architecture</h1>
                     <h1 className="py-5 text-xs md:text-sm">Designing scalable database systems using MongoDB and Redis with optimized data modeling and high-performance caching.</h1>
                 </span>
-                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl border border-purple-500 hover:bg-slate-800 transition-all duration-500 ease-in-out">
+                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl shadow-2xl border border-gray-600 hover:scale-103 hover:shadow-lg hover:shadow-indigo-600 hover:border-indigo-500 active:scale-107 active:shadow-lg active:shadow-indigo-600 active:border-indigo-500 transition-all duration-800 ease-in-out">
                     <img src={gitHubIcon} alt="gitHubIcon" className="w-10 h-10"/>
                     <h1 className="font-semibold">Version Control</h1>
                     <h1 className="py-5 text-xs md:text-sm">Using Git and GitHub for efficient source code management, version tracking, and collaborative development.</h1>
                 </span>
-                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl border border-purple-500 hover:bg-slate-800 transition-all duration-500 ease-in-out">
+                <span className="flex flex-col justify-center cursor-pointer py-8 px-5 bg-slate-900 rounded-2xl shadow-2xl border border-gray-600 hover:scale-103 hover:shadow-lg hover:shadow-indigo-600 hover:border-indigo-500 active:scale-107 active:shadow-lg active:shadow-indigo-600 active:border-indigo-500 transition-all duration-800 ease-in-out">
                     <img src={laptopCodeIcon} alt="laptopCodeIcon" className="w-10 h-10"/>
                     <h1 className="font-semibold">Documentation</h1>
                     <h1 className="py-5 text-xs md:text-sm">Writing clear and structured documentation including READMEs, setup guides, and API references to improve project maintainability and collaboration.</h1>
