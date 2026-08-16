@@ -33,9 +33,9 @@ const Home = () => {
                     <Link to="contact" smooth={true} duration={500} className="my-6 mx-15 cursor-pointer">Contact Me</Link>
                 </div>
             </div>
-            <div className="flex flex-col justify-between items-center gap-[6vh] py-[6vh] px-5 sm:py-16 md:py-[3vh] md:px-15 md:gap-[5vh] lg:items-start lg:gap-0 lg:flex-row lg:py-[4vh] lg:px-12 xl:py-15 xl:px-20">
+            <div className="flex flex-col justify-between items-center gap-[6vh] py-[6vh] px-5 sm:py-16 md:py-[3vh] md:px-15 md:gap-[5vh] lg:items-start lg:gap-0 lg:flex-row lg:py-[4vh] lg:px-12 xl:py-8 xl:px-20">
                 <div className="text-white">
-                    <div className="mb-10 lg:mb-15">
+                    <div className="mb-10 lg:mb-10">
                         <h1 className="bg-blue-800 text-purple-400 ring-2 ring-purple-500 shadow-lg shadow-blue-600 text-center w-[42.5vw] py-2 px-3 mb-8 rounded-3xl sm:w-[25vw] md:w-[22vw] lg:text-2xl xl:rounded-2xl xl:w-[15vw]">Ready to Innovate</h1>
                         <h1 className="sm:text-2xl lg:text-3xl">Hello, I'm</h1>
                         <h1 className="text-2xl bg-linear-to-r from-purple-400 via-purple-500 to-indigo-500 bg-clip-text text-transparent sm:text-3xl md:text-4xl lg:text-5xl font-semibold">Rounak Seth</h1>
@@ -43,7 +43,7 @@ const Home = () => {
                         <h1 className="pt-5 text-xs text-gray-300 sm:text-sm md:text-base">I build modern full-stack web applications using React.js, Node.js, Express and MongoDB</h1>
                     </div>
                     <span className="flex flex-row justify-start items-center gap-5 lg:justify-start lg:items-start xl:flex-col xl:justify-center">
-                        <a href="/resume.pdf" download="rounak-Seth-Resume.pdf" className="flex justify-center items-center gap-1 bg-linear-to-r from-blue-600 to-purple-700 shadow-lg shadow-blue-800 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 hover:scale-103 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">
+                        <a href="/Rounak_Seth_Resume.pdf" download="Rounak Seth Resume.pdf" className="flex justify-center items-center gap-1 bg-linear-to-r from-blue-600 to-purple-700 shadow-lg shadow-blue-800 py-3 px-5 rounded-3xl cursor-pointer hover:bg-blue-800 hover:scale-103 transition-all duration-400 ease-in-out text-xs sm:text-sm md:text-base">
                             <img src={fileDownloadIcon} alt="fileDownloadIcon" className="w-4 h-4 sm:w-5 sm:h-5"/>
                             Download Resume
                         </a>
